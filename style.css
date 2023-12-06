@@ -9,6 +9,7 @@
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
+	background: #9AB9D6;
 }
 .calculator {
 	background-color: #22252D;
@@ -17,8 +18,9 @@
 	min-height: 640px;
 	display: flex;
 	flex-direction: column;
-	border-radius: 1.5rem;
+	border-radius: 1rem;
 	overflow: hidden;
+	box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
 }
 .display {
 	min-height: 200px;
@@ -97,8 +99,8 @@
 }
 @media screen and (max-width: 450px) {
     .calculator{
+		width: 100%;
+		height: 100%;
         border-radius: 0;
-	width:100%;
-	height: 100%;
     }
 }
